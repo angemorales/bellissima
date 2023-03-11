@@ -1,0 +1,165 @@
+.navbar{
+    /*background-color: #9B005D;*/
+    background: rgba(212,30,66,1);
+background: -moz-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,30,66,1)), color-stop(100%, rgba(73,10,125,1)));
+background: -webkit-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: -o-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: -ms-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: linear-gradient(to right, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d41e42', endColorstr='#490a7d', GradientType=1 );
+    font-family: 'ralewaymedium';
+}
+
+ul li a{
+    color: #ffffff !important;
+}
+
+ul li a:hover{
+    color: #999999 !important;
+}
+
+.general{
+    background-image: url('../img/general.png');
+   height: 650px;
+    
+    background-size: cover;
+}
+
+.about img{
+    width: 250px;
+    margin: 30px 0 30px 110px;   
+}
+
+section .centrar{
+    width: 600px;
+    margin: 120px 0px 0 150px;
+}
+
+section .centrar p{
+    font-family: 'ralewayregular';
+   
+}
+
+section.servicios{
+    background-color: #C4C4C4;
+    padding: 30px;
+ 
+}
+
+.servicios h2{
+    font-family: 'ralewaybold';
+    color: #9B005D;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+article{
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding:0 15px;
+   
+}
+
+.servicios article .holder h3{
+    font-family: 'ralewaymedium';
+}
+
+.servicios article .holder p{
+    font-family: 'ralewayregular';
+}
+
+.servicios div img{
+    margin: 10px 0;
+}
+
+section.promos{
+    
+    padding: 30px;
+ 
+}
+
+.promos h2{
+    font-family: 'ralewaybold';
+    color: #9B005D;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+section .formulario{
+    padding: 30px;
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+    
+}
+
+.formulario h2{
+    font-family: 'ralewaybold';
+    color: #9B005D;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+/*
+.formulario input placeholder{
+   font-family: 'ralewaythin' !important; 
+}*/
+
+.formulario button{
+   font-family: 'ralewaymedium';
+    background: #9B005D !important; 
+    border: none;  
+}
+
+.formulario button:hover{
+  transform: scale(1.2, 1.2);
+ 
+}
+
+
+
+footer{
+    margin-top: 30px;
+    padding: 10px 0 0 0;
+    background: rgba(212,30,66,1);
+background: -moz-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,30,66,1)), color-stop(100%, rgba(73,10,125,1)));
+background: -webkit-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: -o-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: -ms-linear-gradient(left, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+background: linear-gradient(to right, rgba(212,30,66,1) 0%, rgba(73,10,125,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d41e42', endColorstr='#490a7d', GradientType=1 );
+    color: #ffffff;
+}
+
+.datos i{
+    font-size: 20px;
+    
+
+}
+
+.datos p{
+    font-family: 'ralewayregular';  
+    font-size: 15px;
+    line-height: 3px !important;
+}
+
+.redes i{
+  
+    font-size: 35px;  
+    
+}
+
+.redes a{
+    color: #ffffff;
+     text-decoration: none;
+}
+
+.redes a:hover{
+    color: #C4C4C4;
+    text-decoration: none;
+}
